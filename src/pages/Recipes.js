@@ -8,12 +8,12 @@ class Recipes extends Component {
     super(props);
   }
   state = { recipes: recipeData, search: "" };
-  handleChange(e) {
+  handleChange = e => {
     this.setState({ search: e.currentTarget.value });
-  }
-  handleSubmit(e) {
+  };
+  handleSubmit = e => {
     e.preventDefault();
-  }
+  };
   render() {
     const { recipes, search } = this.state;
     return (
