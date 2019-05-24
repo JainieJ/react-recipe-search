@@ -14,7 +14,7 @@ class Search extends Component {
             </h1>
             <form className="mt-4">
               <label htmlFor="search" className="text-capitalize ">
-                type recipes separated by comma
+                type ingredients separated by comma
               </label>
               <div className="input-group">
                 <input
