@@ -13,7 +13,7 @@ class SingleRecipe extends Component {
   }
   async componentDidMount() {
     const url = `https://www.food2fork.com/api/get?key=${
-      process.env.REACT_APP_API_KEY
+      process.env.REACT_APP_MY_KEY
     }&rId=${this.state.id}`;
     try {
       const response = await fetch(url);
